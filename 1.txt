@@ -1,0 +1,75 @@
+    1  touch index.txt
+    2  ls
+    3  vi index.txt
+    4  cat inde.txt
+    5  cat index.txt
+    6  git status
+    7  git add .
+    8  clear
+    9  git status
+   10  git commit
+   11  git log
+   12  cat index.txt
+   13  vi index.txt
+   14  cat index.txt
+   15  git add .
+   16  git commit -m '修改index'
+   17  git log
+   18  git diff 
+   19  vi index.txt
+   20  cat index.txt
+   21  clear
+   22  git diff
+   23  git add .
+   24  git diff
+   25  git diff --cached
+   26  git diff master
+   27  git commit -m '第三次'
+   28  git log 
+   29  vi index.txt
+   30  git status
+   31  clwar
+   32  clear
+   33  git add .
+   34  git log
+   35  git status
+   36  git reset HEAD .
+   37  git status
+   38  vi index.txt
+   39  git status
+   40  git checkout index.txt
+   41  clear
+   42  cat index.txt
+   43  git log
+   44  git reset --hard 20b499af1bfef039a5036b3
+   45  clear
+   46  git branch
+   47  git branch dev
+   48  git branch
+   49  git checkout dev
+   50  git branch
+   51  git branch master
+   52  git branch
+   53  git checkout master
+   54  git branch -D dev
+   55  git branch
+   56  clear
+   57  git branch
+   58  git branch dev
+   59  git checkout dev
+   60  git log
+   61  git checkout master
+   62  git checkout -b zhao
+   63  git log
+   64  git checkout master 
+   65  git log
+   66  clear
+   67  git checkout zhao
+   68  touch 1.js
+   69  git add .
+   70  git commit -m'1.js'
+   71  git checkout master
+   72  git merge zhao
+   73  vi index.txt
+   74  history 1.txt
+   75  history > 1.txt
